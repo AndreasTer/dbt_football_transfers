@@ -5,10 +5,10 @@ with source as (
 
 renamed as (
     select 
-        CLUB as club,
-        LEAGUE as league,
-        LAT as latitude,
-        LONG as longitude
+        "CLUB" as club,
+        "LEAGUE" as league,
+        "LAT" as latitude,
+        "LONG" as longitude
     from source
 )
 
