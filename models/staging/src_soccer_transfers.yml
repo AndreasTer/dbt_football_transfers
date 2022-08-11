@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: RAW
+    tables:
+      - name: FOOTBALL_TRANSFERS
+      - name: CLUBS_FULL
