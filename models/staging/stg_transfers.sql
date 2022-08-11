@@ -8,8 +8,8 @@ renamed as (
 
     select
       "club" as club,
-      "name" as name,
-      "age" as age,
+      "name" as player_name,
+      "age" as player_age,
       "nationality" as nationality,
       "position" as position,
       "short_pos" as position_short,

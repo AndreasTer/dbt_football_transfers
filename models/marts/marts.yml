@@ -1,0 +1,71 @@
+version: 2
+
+models:
+  - name: dim_clubs
+    description: "Table with club infos."
+    columns:
+      - name: club
+        description: "Name of the club."
+
+      - name: league
+        description: "League the club is playing in."
+
+      - name: total_transfer_volume
+        description: "Total amount spent by club for transfers between 1992 and 2021"
+
+      - name: latitude
+        description: "Latitude location of the clubs stadium."
+
+      - name: longitude
+        description: "Longitude location of the clubs stadium."
+
+  - name: fct_transfers
+    description: "Table with transfer information from 1992 and 2021"
+    columns:
+      - name: club
+        description: "Name of the club."
+
+      - name: player_name
+        description: "Full name of the player."
+
+      - name: player_age
+        description: "Age of the player."
+
+      - name: nationality
+        description: "Nationality of the player."
+
+      - name: position
+        description: "Players position."
+
+      - name: position_short
+        description: "Abrv. of the players's position."
+
+      - name: market_value
+        description: "Market value of the player at the time of transfer."
+
+      - name: dealing_club
+        description: "Name of the dealing club."
+
+      - name: dealing_country
+        description: "Country of the dealing club."
+
+      - name: fee
+        description: "Transfer fee in dollars."
+
+      - name: movement
+        description: "Info if transfer was in the club, or out of the club."
+
+      - name: window
+        description: "Summmer or winter transfer window."
+
+      - name: league
+        description: "League the club is playing in."
+
+      - name: season
+        description: "Season of the transfer."
+
+      - name: flag_is_loan
+        description: "Flag if the transfer was on loan."
+
+      - name: loan_status
+        description: "Loan status of the player at the time of transfer."

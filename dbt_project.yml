@@ -32,6 +32,9 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 models:
   football_transfers:
-    # Applies to all files under models/example/
+    +persist_docs:
+        relation: true
+        columns: true
     marts:
       materialized: table
+        
