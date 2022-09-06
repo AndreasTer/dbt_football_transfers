@@ -11,7 +11,10 @@ models:
         description: "League the club is playing in."
 
       - name: total_transfer_volume
-        description: "Total amount spent by club for transfers between 1992 and 2021"
+        description: "Total amount spent by club for transfers between 1992 and 2021."
+
+      - name: stadium_name
+        description: "Name of the stadium the club is playing in."
 
       - name: latitude
         description: "Latitude location of the clubs stadium."
