@@ -8,9 +8,10 @@ clubs as (
 select 
     a.club,
     a.league,
+    a.stadium_name,
     sum(IFF(a.movement = 'in', a.fee * -1, a.fee)) as total_transfer_volume,
     max(b.latitude) as latitude,
     max(b.longitude) as longitude
 from transfers as a
 left join clubs as b on a.club = b.club AND a.league = b.league
-group by 1,2
+group by 1,2,3
