@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: RAW
+  - name: DBT_DEMO
     tables:
-      - name: FOOTBALL_TRANSFERS
-      - name: CLUBS_FULL
+      - name: RAW_FOOTBALL_TRANSFERS
+      - name: RAW_CLUBS

@@ -1,6 +1,6 @@
 with source as (
 
-    select * from {{ source('RAW', 'FOOTBALL_TRANSFERS') }}
+    select * from {{ source('DBT_DEMO', 'RAW_FOOTBALL_TRANSFERS') }}
 
 ),
 
