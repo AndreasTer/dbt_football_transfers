@@ -6,6 +6,8 @@ models:
     columns:
       - name: club
         description: "Name of the club."
+        tests:
+          - not_null
 
       - name: league
         description: "League the club is playing in."
